@@ -14,7 +14,7 @@ const FiveDayForecast = ({ location }) => {
   return (
     <div className="card-fiveday">
       {dates.map((date) => (
-        <ForecastCard key={date.valueOf()} date={date} />
+        <ForecastCard key={date.valueOf()} date={date} location={location} />
       ))}
     </div>
   );
