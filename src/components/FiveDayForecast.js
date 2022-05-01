@@ -1,9 +1,14 @@
 import React from "react";
+import ForecastCard from "./ForecastCard";
 
 const FiveDayForecast = ({ location }) => {
   return (
     <div className="card-fiveday">
-      <h1>Location:{location}</h1>
+      <ForecastCard />
+      <ForecastCard />
+      <ForecastCard />
+      <ForecastCard />
+      <ForecastCard />
     </div>
   );
 };

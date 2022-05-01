@@ -37,11 +37,19 @@ footer {
   background: #dddddd;
   color: #808080;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 650px;
   height: 175px;
-  font-family: "Roboto", sans-serif;
-  float: left;
+}
+.forecast-card {
+  background: #656565;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 175px;
 }
