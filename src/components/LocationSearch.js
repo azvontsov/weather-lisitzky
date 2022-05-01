@@ -1,6 +1,6 @@
 import React from "react";
 
-const LocationSearch = () => {
+const LocationSearch = ({ location, setLocation }) => {
   return <div>LocationSearch</div>;
 };
 

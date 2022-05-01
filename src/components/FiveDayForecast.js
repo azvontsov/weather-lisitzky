@@ -1,6 +1,6 @@
 import React from "react";
 
-const FiveDayForecast = () => {
+const FiveDayForecast = ({ location }) => {
   return <div>FiveDayForecast</div>;
 };
 
