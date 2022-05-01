@@ -6,11 +6,11 @@ import LocationSearch from "./LocationSearch";
 const MainPage = () => {
   let [location, setLocation] = useState("");
   return (
-    <div>
+    <main>
       <ForecastTitle location={location} />
       <LocationSearch location={location} setLocation={setLocation} />
       <FiveDayForecast location={location} />
-    </div>
+    </main>
   );
 };
 
